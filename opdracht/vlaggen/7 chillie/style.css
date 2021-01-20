@@ -12,34 +12,32 @@
 
 /* Hieronder kun je gaan editen */
 
-#links{
-    width: 33%;
-    height: 100%;
-    display: inline-block;
-    background-color: green;
+#linksboven{
+    
+    background-color:blue;
 }
 
-#rechts{
-    width: 66%;
+#boven{
+    width: 35%;
     height: 50%;
     display: inline-block;
-    
+    background-color:blue;
 }
 
-#rechtboven{
-    width: 33%;
+#rechtsboven{
+    width: ;
+    height: 50%;
+    display: inline-block;
+    background-color: blue;
+}
+
+#onder{
+    width: 100%;
     height: 50%;
     background-color: red;
 }
 
-#rechtsonder{
-    width: 33%;
-    height: 50%;
-    background-color: yellow;
 
-
-
-}
 
 
 

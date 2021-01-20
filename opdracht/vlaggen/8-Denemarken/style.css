@@ -1,9 +1,7 @@
-/* Hier hoef je niks mee te doen */
-*{
+{
     font-size:0;
 }
-
-#container{
+.top-block{
     width: 900px;
     height: 600px;
     background-color: blanchedalmond;
@@ -11,35 +9,28 @@
 }
 
 /* Hieronder kun je gaan editen */
-
-#links{
-    width: 33%;
-    height: 100%;
-    display: inline-block;
-    background-color: green;
 }
 
-#rechts{
-    width: 66%;
-    height: 50%;
-    display: inline-block;
-    
-}
 
-#rechtboven{
-    width: 33%;
-    height: 50%;
+.right{
+    widows: 600px; 
+    height: 200px;
+    display: inline-block;
     background-color: red;
+    border: 40px solid white;
 }
 
-#rechtsonder{
-    width: 33%;
-    height: 50%;
-    background-color: yellow;
-
-
-
+.left{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    background-color: red;
+    border: 40px solid white;
 }
+
+
+
+
 
 
 
