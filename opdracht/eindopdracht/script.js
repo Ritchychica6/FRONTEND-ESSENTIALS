@@ -1,40 +1,22 @@
-document.querySelector(js)
 
-var bezoeker=prompt(naam)
-var bezoeker=prompt(leeftijd)
-var bezoeker=prompt(achternaam)
-var bezoeker=prompt(email)
-var bezoeker=prompt(woonplaats)
-
-console.log(welkom op het internet)
-
-if(leeftijd <16) {
-    background-color="orange";
-}
-
-if(leeftijd <17) {
-    background-color="blue";
-
-}
-
-if(leeftijd <18) {
-    background-color="gold"
-
-}
-
-if(leeftijd <19-color){
-    background-color="green"
-
+   //hier vul ik een object met variabelen van voornaam  enz. En de user geeft input,prompt zorgt hier voor.
     
+   let persoon=  {
+    voornaam: prompt("naam"),
+    achternaam: prompt("achternaam"),
+    leeftijd: prompt("leeftijd?"),
+    eamail: prompt ("email"),
+    woonplaats: prompt ("woonplaats")
+};
 
+//ik moet hier de voornaam laten zien die de gebruiker heeft ingetypt, dit doe ik met persoon.voornaam 
+document.getElementById("voornaam").innerHTML=persoon.voornaam;
+document.getElementById("achternaam").innerHTML=persoon.achternaam;
 
-function myfuction bezoeker(naam, achternaam, leeftijd, email, woonplaats) {
-    this.naam=naam;
-    this.achternaam=achternaam;
-    this.leeftijd=leeftijd;
-    this.email=email;
-    this.woonplaats=woonplaats;
-
-
-
+if(persoon.leeftijd==16){
+// om de achtergrond van de body te veranderen gebruik ik in java script .style.backgrondColor=kleur
+document.getElementById("achtergrond").style.backgroundColor="orange";
+}
+else if(persoon.leeftijd==17){
+document.getElementById("achtergrond").style.backgroundColor="blue";
 }
