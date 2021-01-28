@@ -29,3 +29,9 @@ document.getElementById("achtergrond").style.backgroundColor="orange";
     else if(persoon.leeftijd==19){
             document.getElementById("achtergrond").style.backgroundColor="green";
             }
+    else {
+        document.getElementById("achtergrond").style.backgroundColor="yellow";
+
+    }
+
+    console.log(persoon)
